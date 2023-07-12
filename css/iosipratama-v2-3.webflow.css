@@ -1,0 +1,246 @@
+body {
+  color: #3f4d4b;
+  background-color: #f8f7f3;
+  font-family: Plusjakartasans, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  color: #172624;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Craftworksans, sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.container {
+  width: auto;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  height: 24px;
+}
+
+.navigationbar {
+  width: auto;
+  height: 60px;
+  max-width: 1110px;
+  object-fit: fill;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: static;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.navbar {
+  height: 60px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: static;
+}
+
+.nav-menu {
+  clear: right;
+  display: flex;
+  position: static;
+}
+
+.brand-logo {
+  clear: left;
+  position: static;
+}
+
+.herocontent {
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.greetings {
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.profilepicture {
+  width: 60px;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+
+.greetingstext {
+  color: #28665e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.availablebadge {
+  flex-direction: row;
+  display: flex;
+}
+
+.availableicon {
+  margin-right: 10px;
+}
+
+.heroheading {
+  margin-bottom: 60px;
+}
+
+.flashinfo {
+  width: 100%;
+  height: 80px;
+  background-color: #c33527;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  transform: rotate(-2deg);
+}
+
+.flash-info-text {
+  color: #f8f7f3;
+  flex: none;
+  align-self: auto;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.flash-info-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #f8f7f3;
+  border-radius: 100%;
+  flex: none;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.flash-info-element {
+  flex-wrap: nowrap;
+  align-items: center;
+  display: flex;
+  overflow: visible;
+}
+
+.image {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .navsection {
+    margin-bottom: 60px;
+  }
+
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .navigationbar {
+    margin-left: auto;
+  }
+
+  .hero-section {
+    height: auto;
+    flex-direction: column;
+    display: block;
+  }
+
+  .herocontent {
+    height: auto;
+    flex-flow: wrap;
+    justify-content: flex-start;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .body {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('../fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('../fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('../fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plusjakartasans';
+  src: url('../fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Craftworksans';
+  src: url('../fonts/CraftworkSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Craftworksans';
+  src: url('../fonts/CraftworkSans-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Craftworksans';
+  src: url('../fonts/CraftworkSans-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
